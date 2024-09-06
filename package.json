@@ -6,7 +6,8 @@
     "dev": "concurrently \"node server/server.js\" \"next dev\"",
     "build": "concurrently \"node server/server.js\" \"next build\"",
     "start": "concurrently \"node server/server.js\" \"next start\"",
-    "lint": "concurrently \"node server/server.js\" \"next lint\""
+    "lint": "concurrently \"node server/server.js\" \"next lint\"",
+    "start-run": "node server/server.js"
   },
   "dependencies": {
     "@chakra-ui/icons": "^2.0.19",
